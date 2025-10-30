@@ -15,6 +15,7 @@ namespace Teste_Sistema_CAD.Core.Styles
         mm070,
         mm100,
         mm140,
-        mm200
+        mm200,
+        PorCamada
     }
 }

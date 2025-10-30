@@ -15,5 +15,8 @@ namespace Teste_Sistema_CAD.Core.Geometry
             Centro = centro;
             Raio = raio;
         }
+        public Cor Cor { get; set; } = Cor.PorCamada;
+        public TipoDeLinha TipoDeLinha { get; set; } = TipoDeLinha.PorCamada;
+        public EspessuraLinha Espessura { get; set; } = EspessuraLinha.PorCamada;
     }
 }

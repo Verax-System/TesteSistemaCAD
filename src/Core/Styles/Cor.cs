@@ -29,5 +29,6 @@ namespace Teste_Sistema_CAD.Core.Styles
         public static Cor Amarelo => new Cor(255, 255, 0);
         public static Cor Ciano => new Cor(0, 255, 255);
         public static Cor Magenta => new Cor(255, 0, 255);
+        public static Cor PorCamada => new Cor(255, 255, 255);
     }
 }

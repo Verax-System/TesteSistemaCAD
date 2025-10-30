@@ -36,5 +36,7 @@ namespace Teste_Sistema_CAD.Core.Styles
         
         // Linha Traço-Ponto (ABNT: usada para linhas de centro e simetria)
         public static TipoDeLinha TracoPonto => new TipoDeLinha("Traço-Ponto", new List<double> { 10, 3, 2, 3 });
+
+        public static TipoDeLinha PorCamada => new TipoDeLinha("PorCamada");
     }
 }

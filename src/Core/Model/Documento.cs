@@ -126,4 +126,5 @@ namespace Teste_Sistema_CAD.Core.Model
             return EstilosDeCota.FirstOrDefault(e => e.Nome == nome);
         }
     }
-}
+    public List<DefinicaoDeBloco> DefinicoesDeBloco { get; private set; }
+    }

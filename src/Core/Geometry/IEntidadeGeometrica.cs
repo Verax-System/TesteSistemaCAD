@@ -7,9 +7,8 @@ namespace Teste_Sistema_CAD.Core.Geometry
     /// </summary>
     public interface IEntidadeGeometrica
     {
-        // Por enquanto, é só um contrato vazio.
-        // No futuro, podemos adicionar:
-        // void Desenhar(ContextoDeRenderizacao ctx);
-        // BoundingBox GetBoundingBox();
+        public Cor Cor { get; set; }
+        public TipoDeLinha TipoDeLinha { get; set; }
+        public EspessuraLinha Espessura { get; set; }
     }
 }

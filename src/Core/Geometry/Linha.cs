@@ -12,13 +12,12 @@ namespace Teste_Sistema_CAD.Core.Geometry
         public Ponto2D Inicio { get; set; }
         public Ponto2D Fim { get; set; }
 
-        public Linha(Ponto2D inicio, Ponto2D fim)
-        {
-            Inicio = inicio;
-            Fim = fim;
-        }
-
-        // Futuramente:
-        // public double GetComprimento() { ... }
+        public Cor Cor { get; set; } = Cor.PorCamada;
+        public TipoDeLinha TipoDeLinha { get; set; } = TipoDeLinha.PorCamada;
+        public EspessuraLinha Espessura { get; set; } = EspessuraLinha.PorCamada;
     }
+
+    // Futuramente:
+    // public double GetComprimento() { ... }
+}
 }
